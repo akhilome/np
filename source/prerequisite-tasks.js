@@ -36,6 +36,10 @@ module.exports = (input, pkg, options) => {
 					externalRegistry: isExternalRegistry ? pkg.publishConfig.registry : false
 				});
 
+				if (!options.collabCheck) {
+					return;
+				}
+
 				const collaborators = await npm.collaborators(pkg);
 				if (!collaborators) {
 					return;

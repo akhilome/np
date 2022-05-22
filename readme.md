@@ -1,3 +1,11 @@
+# ⑃⑃ fork notice ⑃⑃
+
+Fork of original project to add a few modifications. Please see original project for 'proper' updates to `np` and support.
+
+Original project's readme continued below:
+
+---
+
 # np [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 
 > A better `npm publish`
@@ -104,6 +112,7 @@ Currently, these are the flags you can configure:
 For example, this configures `np` to never use Yarn and to use `dist` as the subdirectory to publish:
 
 `package.json`
+
 ```json
 {
 	"name": "superb-package",
@@ -115,6 +124,7 @@ For example, this configures `np` to never use Yarn and to use `dist` as the sub
 ```
 
 `.np-config.json`
+
 ```json
 {
 	"yarn": false,
@@ -123,10 +133,11 @@ For example, this configures `np` to never use Yarn and to use `dist` as the sub
 ```
 
 `.np-config.js` or `.np-config.cjs`
+
 ```js
 module.exports = {
 	yarn: false,
-	contents: 'dist'
+	contents: 'dist',
 };
 ```
 

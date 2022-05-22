@@ -1,9 +1,9 @@
 {
-	"name": "np",
-	"version": "7.6.1",
+	"name": "@akhilome/np",
+	"version": "7.6.1-patch",
 	"description": "A better `npm publish`",
 	"license": "MIT",
-	"repository": "sindresorhus/np",
+	"repository": "akhilome/np",
 	"funding": "https://github.com/sindresorhus/np?sponsor=1",
 	"bin": "source/cli.js",
 	"engines": {
