@@ -36,7 +36,7 @@ const cli = meow(`
 	  --release-draft-only   Only opens a GitHub release draft for the latest published version
 	  --test-script          Name of npm run script to run tests before publishing (default: test)
 	  --no-2fa               Don't enable 2FA on new packages (not recommended)
-		--no-collab-check			 Don't do call to GET https://registry.npmjs.org/-/package/@scope/package/collaborators (fails for automation token)
+	  --no-collab-check			 Don't do call to GET https://registry.npmjs.org/-/package/@scope/package/collaborators (fails for automation token)
 	  --message              Version bump commit message, '%s' will be replaced with version (default: '%s' with npm and 'v%s' with yarn)
 
 	Examples
